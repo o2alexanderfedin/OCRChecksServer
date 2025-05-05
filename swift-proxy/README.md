@@ -8,7 +8,7 @@ Add the package to your project using Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/nolock/ocr-swift-proxy.git", from: "1.0.0"),
+    .package(url: "https://github.com/o2alexanderfedin/OCRChecksServer.git", from: "1.38.1"),
 ]
 ```
 
@@ -316,4 +316,10 @@ struct CheckScannerView: View {
 
 ## License
 
-This package is available under the AGPL-3.0-or-later license.
+This package is available under the MIT License, while the main project uses AGPL-3.0-or-later license.
+
+## Contact & Support
+
+- **Website**: [https://nolock.social](https://nolock.social)
+- **Support**: [support@nolock.social](mailto:support@nolock.social)
+- **Repository**: [https://github.com/o2alexanderfedin/OCRChecksServer](https://github.com/o2alexanderfedin/OCRChecksServer)
