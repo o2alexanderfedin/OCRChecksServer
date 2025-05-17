@@ -10,10 +10,7 @@ import { handleDocumentRequest } from './request-handlers';
 import { createSwaggerUI, getOpenAPISpecWithCurrentVersion } from './swagger';
 // Get package version (used in health check)
 import pkg from '../package.json';
-
-interface Env {
-  MISTRAL_API_KEY: string;
-}
+import type { Env } from './types';
 
 const app = new Hono<{ Bindings: Env }>();
 // Apply CORS middleware to all routes
